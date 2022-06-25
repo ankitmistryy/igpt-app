@@ -16,7 +16,6 @@ $email=$_POST['email'];
 $contact_no=$_POST['contact_no'];
 $sponsor_id=$_POST['sponsor_id'];
 
-
      $isError=false;
      $query = "INSERT INTO compaign (sponsor_id,title,budget_from,budget_to,influencer_target,compaign_type,category_id,min_followers,max_followers,email,contact_no)
      VALUES ('$sponsor_id','$title','$budget_from','$budget_to','$influencer_target','$compaign_type',

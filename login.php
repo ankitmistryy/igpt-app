@@ -10,7 +10,6 @@ $result = mysqli_query($conn,$query);
 
 if (mysqli_num_rows($result) > 0) {
     // AND password='$password'
-    
     $queryIn = "SELECT * FROM users  where contact_no='$mobile' AND password='$password'";
     $resultIn = mysqli_query($conn,$queryIn);
     

@@ -9,8 +9,7 @@ $result = mysqli_query($conn,$query);
 
 if (mysqli_num_rows($result) > 0) {
     $resposne['error']=false;
-    while($row = mysqli_fetch_assoc($result)){
-         
+    while($row = mysqli_fetch_assoc($result)){     
 
         $queryForPageDetails = "SELECT post FROM instagram_profile_details WHERE user_id = ".$row['sponsor_id'];
         $resultIn = mysqli_query($conn,$queryForPageDetails);

@@ -15,7 +15,6 @@ if (mysqli_num_rows($result) > 0) {
         if($userId != $userIdFromApp){
             $queryData = "SELECT * FROM instagram_profile_details where user_id='$userId' AND instagramId LIKE '$searchKeyword%' ";
             $queryResult = mysqli_query($conn,$queryData);
-            
             $canAdd=false;
             if (mysqli_num_rows($queryResult) > 0) {
                 $pageResult = mysqli_fetch_assoc($queryResult);

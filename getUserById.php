@@ -16,7 +16,6 @@ if (mysqli_num_rows($result) ) {
          
             $queryData = "SELECT * FROM instagram_profile_details where user_id='$userId'";
             $queryResult = mysqli_query($conn,$queryData);
-            
             $canAdd=true;
             if (mysqli_num_rows($queryResult) > 0) {
                 $pageResult = mysqli_fetch_assoc($queryResult);

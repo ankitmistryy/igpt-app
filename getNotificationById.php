@@ -15,8 +15,6 @@ if (mysqli_num_rows($result) > 0) {
         $userId=$row['id'];
        $resposne["data"][]=$row;
     }
-  
-   
     
     echo json_encode($resposne);
 } 

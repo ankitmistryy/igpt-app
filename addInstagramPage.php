@@ -5,7 +5,6 @@ header('Content-Type: application/json');
 
 $userId=$_POST['userId'];
 $instaProfile=$_POST['instagramApiData'];
- 
 $storyPrice=$_POST['storyPrice'];
 $postPrice=$_POST['postPrice'];
 $bothPrice=$_POST['bothPrice'];

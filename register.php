@@ -8,7 +8,6 @@ $emailId=$_POST['emailId'];
 $contactNumber=$_POST['contactNumber'];
 $passwordF=$_POST['password'];
  
-
 //check for user exist or not          
 $query = "select * from users where contact_no = '$contactNumber' Limit 1";
 $result = mysqli_query($conn, $query);

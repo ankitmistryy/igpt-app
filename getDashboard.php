@@ -5,7 +5,6 @@ header('Content-Type: application/json');
 
 $userId = $_POST['userId'];
  
-
   $queryForPageDetails = "SELECT * FROM instagram_profile_details WHERE user_id = ".$userId;
   $resultIn = mysqli_query($conn,$queryForPageDetails);
 

@@ -2,7 +2,6 @@
 //require database
 require_once('db.php');
 header('Content-Type: application/json');
-
 $query = "SELECT * FROM feedback";
 $result = mysqli_query($conn,$query);
 

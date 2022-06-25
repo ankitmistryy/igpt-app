@@ -10,7 +10,6 @@ $userId=$_POST['userId'];
  
 $IsUserExits=false;
 
-
 if(isset($_POST['contactNumber'])){
     $contactNumber = $_POST['contactNumber'];
 

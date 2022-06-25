@@ -14,7 +14,6 @@ if ($result) {
     $resposne['error']=false;
     $resposne['message']="user is approved";
 
-
     $query = "INSERT INTO notification (user_id,message)
     VALUES ('$userId','Your instagram page is approved. Now your page will be visible to other user. Stay tune with us'
     )";

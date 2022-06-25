@@ -7,7 +7,7 @@ $title=$_POST['title'];
 $emailId=$_POST['emailId'];
 $userid=$_POST['user_id'];
 $feedback=$_POST['feedback'];
- 
+
 
 
      $isError=false;
